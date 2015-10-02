@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import { module, test } from 'qunit';
 import startApp from 'buchix/tests/helpers/start-app';
+import appVersion from 'buchix/initializers/app-version';
 
 module('Acceptance | login', {
   beforeEach: function () {
